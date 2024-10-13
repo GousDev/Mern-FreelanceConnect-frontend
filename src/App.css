@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Shade&family=Girassol&family=Macondo&family=Nosifer&family=Oregano&family=Pompiere&family=Rancho&family=Slackey&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.tb {
+    color: black;
+}
+
+.tw {
+    color: white;
+}
+
+.tr {
+    color: red;
+}

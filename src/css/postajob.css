@@ -1,0 +1,58 @@
+.postajobsect {
+    padding: 2rem;
+    /* background: url("/Images/bg.jpg") bottom; */
+    background: url("/Images/contactbg.jpg") left;
+}
+
+.postajobsect h1 {
+    font-size: 2rem;
+}
+
+.postajobsect h2 {
+    margin: 1rem 0;
+}
+
+.pstep {
+    /* border: 2px solid red; */
+    width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background-color: #ffffffba;
+}
+
+.btns {
+    display: flex;
+}
+
+.nxtbtn {
+    width: 20%;
+    justify-self: flex-end;
+    border: 2px solid rgb(227, 28, 28);
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 1rem 0.2rem 1rem auto;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nxtbtn:active {
+    background-color: rgb(62, 7, 7);
+}
+
+.prebtn {
+    width: 20%;
+    justify-self: flex-end;
+    border: 2px solid rgb(31, 28, 227);
+    color: #ffffff;
+    background-color: rgb(106, 0, 255);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 1rem auto 1rem 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}

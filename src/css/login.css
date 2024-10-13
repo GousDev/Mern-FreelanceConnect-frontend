@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.tr {
+  color: #ea2d2d;
+}
+
+.loginbody {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/Images/contactbg.jpg") left bottom;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container3 {
+  position: relative;
+  max-width: 850px;
+  width: 100%;
+  background: #fff;
+  padding: 40px 30px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  perspective: 2700px;
+}
+
+.container3 .cover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+
+.container3 .cover .front,
+.container3 .cover .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container3 .cover::before,
+.container3 .cover::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  opacity: 0.5;
+  z-index: 120;
+}
+
+.container3 .cover::after {
+  opacity: 0;
+}
+
+.container3 .cover img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 12;
+  backface-visibility: hidden;
+}
+
+.container3 .cover .text {
+  position: absolute;
+  z-index: 120;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover .text .text-1,
+.cover .text .text-2 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  backface-visibility: hidden;
+}
+
+.cover .text .text-2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ########################### Form styling #################### */
+.container3 .forms {
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.container3 .form-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-content .login-form,
+.form-content .signup-form {
+  width: calc(100% / 2 - 25px);
+}
+
+.forms .form-content .title {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+}
+
+.forms .form-content .title:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 90%;
+  background: #fe0000;
+}
+
+.forms .signup-form .title:before {
+  width: 90%;
+}
+
+.forms .form-content .input-boxes {
+  margin-top: 30px;
+}
+
+.forms .form-content .input-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.form-content .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.664);
+  transition: all 0.3s ease;
+}
+
+.form-content .input-box input:focus,
+.form-content .input-box input:valid {
+  border-color: #ff0000;
+}
+
+.form-content .input-box i {
+  position: absolute;
+  color: #ff0000;
+  font-size: 17px;
+}
+
+.forms .form-content .text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.forms .form-content .text a {
+  text-decoration: none;
+}
+
+.forms .form-content .text a:hover {
+  text-decoration: underline;
+}
+
+.forms .form-content .button {
+  color: #fff;
+  margin-top: 40px;
+}
+
+.forms .form-content .button input {
+  border-radius: 6px;
+  /* padding: 0; */
+  width: 100%;
+  background: #080808;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #f9fbfc;
+  transition: all 0.5s ease;
+}
+
+.forms .form-content .button input:hover {
+  background: #fff;
+  border: 2px solid red;
+  color: #ff0000;
+}
+
+.forms .form-content label {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.forms .form-content label:hover {
+  text-decoration: underline;
+}
+
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.container3 #flip {
+  display: none;
+}
+
+/* ###################### Media Queries ########################## */
+@media (max-width: 730px) {
+  .container3 .cover {
+    display: none;
+  }
+
+  .form-content .login-form,
+  .form-content .signup-form {
+    width: 100%;
+  }
+
+  .form-content .signup-form {
+    display: none;
+  }
+
+  .container3 #flip:checked~.forms .signup-form {
+    display: block;
+  }
+
+  .container3 #flip:checked~.forms .login-form {
+    display: none;
+  }
+}

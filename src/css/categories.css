@@ -1,0 +1,93 @@
+.category-section {
+    padding: 50px 0;
+    background-color: rgba(244, 241, 241, 0.468);
+}
+
+.ctgh {
+    text-align: center;
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    margin: 0px 0px 35px 25px;
+    font-family: "Noto Serif", serif;
+}
+
+.categories {
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    background-color: #fff;
+    object-fit: contain;
+}
+
+.category {
+    /* border: 2px solid black; */
+    width: 300px;
+    height: 250px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    background: linear-gradient(#d2aaaaf6 50%, #000000 100%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.webimg {
+    background-color: rgba(243, 4, 4, 0.575);
+}
+
+.uiuximg {
+    background-color: rgba(174, 0, 255, 0.548);
+}
+
+.appimg {
+    background-color: rgba(0, 13, 255, 0.447);
+}
+
+.category img {
+    transform: scale(1.0);
+    transition: all 0.3s ease-out;
+    height: 100%;
+    width: 100%;
+    /* object-position: contain; */
+}
+
+.category:hover img {
+    transform: scale(.9) translateY(-20px);
+    opacity: 0.3
+}
+
+.category .ctg-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.category .ctg-text h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 0 0 20px;
+    /* text-align: center; */
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+
+}
+
+.category:hover .ctg-text h2 {
+    opacity: 1;
+    transform: translateY(0px);
+}

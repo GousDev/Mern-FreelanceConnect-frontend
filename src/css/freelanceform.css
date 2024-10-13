@@ -1,0 +1,74 @@
+.fformsect {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background: url("/Images/bg5.jpg") bottom right;
+}
+
+.f-up {
+  background: url('/Images/bg7.jpg');
+  background-size: contain;
+  background-position-x: left;
+}
+
+.fimg {
+  width: 48%;
+  /* border: 1px solid black; */
+}
+
+.fimg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.freelanceform {
+  width: 48%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  margin: 1rem auto;
+  background-color: rgba(255, 255, 255, 0.957);
+  border-radius: 5px;
+}
+
+.freelanceupform {
+  width: 48%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  margin: 3rem auto;
+  /* margin-right: 0; */
+  background-color: rgba(228, 233, 233, 0.459);
+  border-radius: 5px;
+}
+
+.selpimg {
+  margin: 0.2rem 0 0 0.5rem;
+}
+
+.fbtnsub {
+  text-align: center;
+  width: 20%;
+  border: 2px solid rgb(227, 28, 28);
+  color: #ffffff;
+  background-color: rgb(255, 0, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 1rem auto;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.fbtnsub:active {
+  background-color: rgb(45, 2, 2);
+}
+
+.ep-h1 {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}

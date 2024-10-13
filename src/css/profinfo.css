@@ -1,0 +1,131 @@
+.profinfo {
+    display: flex;
+}
+
+.profInfo_left {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+}
+
+.profInfo_left .img {
+    /* border: 2px solid darkgreen; */
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+
+.img img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    cursor: pointer;
+}
+
+.profInfo_left h2 {
+    text-align: center;
+    color: rgb(57, 55, 55);
+}
+
+.profInfo_left i {
+    color: #e00000;
+}
+
+.chatbtn {
+    margin: 0.5rem auto;
+    width: 90%;
+    background: #e00000;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 1.6rem;
+    border: 1px solid #f9fbfc;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.chatbtn:hover {
+    background-color: #d1d8d8;
+    color: rgb(76, 70, 70);
+}
+
+
+.profcontent {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    width: 70%;
+    padding: 1rem 2rem;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.profcontent::-webkit-scrollbar {
+    display: none;
+}
+
+.profcontent h2 {
+    text-transform: capitalize;
+    text-decoration: underline black;
+    color: #e40000;
+    margin: 1rem 0;
+}
+
+.profhead h1 {
+    margin: 10px 0;
+    font-size: 2.8rem;
+    /* margin-bottom: 10px; */
+}
+
+.profhead h2 {
+    margin: 0 0.4rem;
+    color: #353535;
+    text-decoration: none;
+}
+
+.profskill li {
+    /* list-style-type: none; */
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    color: #353535;
+}
+
+
+.profdescr p {
+    margin-left: 0.5rem;
+    word-spacing: 2px;
+    font-size: 1.3rem;
+    color: #353535;
+}
+
+.profexp p {
+    margin-left: 0.5rem;
+    word-spacing: 2px;
+    color: #353535;
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.profproj a {
+    text-decoration: none;
+    color: #353535;
+    font-size: 1.3rem;
+}
+
+.profproj a:hover {
+    text-decoration: underline;
+}
+
+.profproj li {
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}

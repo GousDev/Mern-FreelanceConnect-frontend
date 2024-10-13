@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Shade&family=Girassol&family=Macondo&family=Nosifer&family=Oregano&family=Pompiere&family=Rancho&family=Slackey&display=swap');
+
+.main-section {
+  background: url("/Images/Main1.jpg"), linear-gradient(rgba(45, 42, 42, 0.993), rgba(1, 0, 0, 0.998));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 99vh;
+  position: relative;
+
+}
+
+.main-section .main-content {
+  width: 40%;
+  position: absolute;
+  text-align: center;
+  padding: 20px;
+  top: 24%;
+  font-family: 'Boogaloo', sans-serif;
+
+}
+
+.main-content p {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+}
+
+.main-content a {
+  display: inline-block;
+  text-decoration: none;
+  margin: top 1rem;
+}
+
+.m-title {
+  /* font-family: 'Handlee', cursive; */
+  /* font-family: 'Nosifer', cursive; */
+  margin-bottom: 5px;
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.m-btn {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #460eb7 0, #e52525 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgb(72, 47, 125) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  /* font-family: "JetBrains Mono",monospace; */
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding: 0.8rem 1.5rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s, transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.m-btn:focus {
+  box-shadow: #7153be 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.m-btn:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.m-btn:active {
+  box-shadow: #0b1b93 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.m-btn1 {
+  background-image: radial-gradient(100% 100% at 100% 0, #b70e0e 0, #4f25e5 100%);
+}

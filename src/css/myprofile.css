@@ -1,0 +1,186 @@
+.mp-main {
+    padding: 20px;
+}
+
+.loader {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f179;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-form {
+    width: 80%;
+    padding: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-div {
+    width: 50%;
+    padding: 1rem;
+}
+
+.p-div .p-inputs {
+    width: 90%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    background-color: rgb(244, 242, 242);
+    border-radius: 5px;
+    margin-top: 4px;
+    font-size: 1rem;
+}
+
+
+
+.p-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(96, 10, 154);
+    border-radius: 15px;
+    border: 2px solid rgb(96, 10, 154);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin: 0 auto 0 0;
+    margin-left: 1rem;
+}
+
+.img {
+    width: 20%;
+    margin-top: 1.7rem;
+    overflow: hidden;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.img-con {
+    position: absolute;
+    top: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 250px;
+    width: 100%;
+}
+
+.img-con img {
+    /* margin-left: 13px; */
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.img .img-in {
+    width: 90%;
+    position: absolute;
+    top: 255px;
+    left: 10px;
+    border: 1px solid black;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.up-img-btn {
+    color: rgb(255, 255, 255);
+    background-color: #ae1010;
+    position: absolute;
+    top: 299px;
+    left: 70px;
+    border-radius: 15px;
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.img:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.fc-jp {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+
+.mpfc {
+    width: 48%;
+    /* height: 500px; */
+    padding: 1rem;
+    /* border: 2px solid red; */
+}
+
+.mpfc .fct {
+    /* border: 2px solid red; */
+    opacity: 0.5;
+    font-size: 2rem;
+    text-align: center;
+    margin: 12rem 0;
+}
+
+.mpfc-btn {
+    position: absolute;
+    /* border: 2px solid red; */
+    padding: 1rem;
+    left: 500px;
+    top: 540px;
+    display: flex;
+    justify-content: space-around;
+    gap: 0.7rem;
+}
+
+.mpfc-btn button {
+    font-size: 1.5rem;
+    background-color: #f1f1f100;
+    outline: none;
+    border: none;
+}
+
+.mpfc-btn button:hover {
+    transform: scale(1.05);
+}
+
+.mpfc-c {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.mpjp {
+    width: 48%;
+    border-left: 1px solid black;
+    padding: 1rem;
+}
+
+.mpjp .pjt {
+    opacity: 0.5;
+    font-size: 2rem;
+    text-align: center;
+    margin: 12rem 0;
+}
